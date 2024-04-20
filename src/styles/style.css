@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+#header, #about, #skills, #projects, #contact{
+    min-height: 100vh;
+}
+
+/* Indicator for element that take most of the viewport */
+.indicator {
+    width: 0rem;
+    height: .4rem;
+    transition: all .3s;
+}
+.visible-indicator {
+    background-color: #0d6efd;
+    width: 6rem;
+}
+.nav-item > a {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    border-bottom: .3rem solid white;
+}
+.nav-indicator {
+    border-bottom-color: #0d6efd !important;
+}
+/* Navbar */
+
+/* Header */
+#header-img-con {
+    max-width: 100vw;
+}
+.header-social-icon {
+    height: 30px;
+    width: 30px;
+    color: #595959;
+}
+.icon:hover {
+    color: #333333;
+}
+#arrow-down {
+    transition: all .2s;
+}
+#header-about-me:hover > #arrow-down {
+    padding-left: 10px;
+}
+#about-me {
+    height: 40px !important;
+    width: 140px;
+    font-size: 1rem;
+}
+
+/* About */
+#about-p {
+    font-size: 1rem;
+}
+#resume {
+    height: 50px !important;
+    width: 150px;
+    font-size: 1rem;
+}
+
+/* Skills */
+#html {
+    color: #dd4b25;
+}
+#css {
+    color: #254bdf;
+}
+#javascript {
+    color: #efd81d;
+}
+#bootstrap {
+    color: #760ff0;
+}
+#react {
+    color: #00d1f7;
+}
+#github {
+    color: #1f2328;
+}
+
+/* Projects */
+.projects {
+    transition: all .2s ease-in;
+}
+.projects:hover {
+    transform: scale(1.2);
+}
+
+/* Contact */
+.contact-icons {
+    height: 30px;
+    width: 30px
+}
+textarea {
+    resize: none !important;
+}
+
+
+@media screen and (min-width: 576px) {
+    
+    /* Header */
+    #about-me {
+        height: 60px !important;
+        width: 200px;
+        font-size: 1.25rem;
+    }
+    .header-social-icon {
+        height: 40px;
+        width: 40px;
+    }
+
+    /* About */
+    #about-p {
+        font-size: 1.40rem;
+    }
+    #resume {
+        height: 55px !important;
+        width: 175px;
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+
+    #div-2 {
+        border-left: 1px solid #dee2e6;
+    }
+
+}
