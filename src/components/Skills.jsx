@@ -4,7 +4,7 @@ import { SiHtml5, SiCss3, SiJavascript, SiBootstrap, SiReact, SiGithub } from "r
 function Skills() {
     return (
         <div id="skills" className=" d-flex flex-column align-items-center border-top pt-5 occupier">
-            <h2 className="text-primary fw-bold">Skills</h2>
+            <h2 className="text-primary mt-5 fw-bold">Skills</h2>
             <div className="indicator"></div>
 
             <div id="skills-con" className="row row-cols-2 row-cols-lg-3 mt-5 w-75">

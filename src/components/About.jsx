@@ -5,9 +5,9 @@ import { MdArrowForwardIos } from "react-icons/md";
 function About() {
     return (
         <div id="about" className="d-flex flex-column align-items-center pt-5 border-top occupier">
-            <h2 className="text-primary fw-bold">About Me</h2>
+            <h2 className="text-primary mt-5 fw-bold">About Me</h2>
             <div className="indicator"></div>
-            <div className="container my-5">
+            <div className="container my-3">
 
                 <div className="container d-flex flex-column flex-md-row justify-content-center align-items-center">
 

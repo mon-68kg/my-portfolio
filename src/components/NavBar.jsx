@@ -2,9 +2,9 @@ import { FaBars } from "react-icons/fa";
 
 function NavBar() {
     return (
-        <nav className="navbar navbar-expand-lg bg-white shadow-sm border-bottom sticky-top">
-            <div className="container px-0">
-                <a className="navbar-brand fs-2 fw-bold ps-3 rounded" href="#">Mon</a>
+        <nav className="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
+            <div className="container px-3 px-lg-5">
+                <a className="navbar-brand fs-2 fw-bold rounded" href="#">Mon</a>
                 <button className="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="true" aria-label="Toggle navigation">
                     <span className=""><FaBars /></span>
                 </button>

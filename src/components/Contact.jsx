@@ -11,7 +11,7 @@ function handleSubmit(e) {
 function Contact() {
     return (
         <div id="contact" className="d-flex flex-column align-items-center pt-5 pb-5 border-top occupier">
-            <h2 className="text-primary fw-bold">Contact Me</h2>
+            <h2 className="text-primary mt-5 fw-bold">Contact Me</h2>
             <div className="indicator"></div>
             <div className="container d-flex flex-column flex-xxl-row px-4 px-md-5 mt-5 pt-5">
 

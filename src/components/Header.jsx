@@ -5,10 +5,10 @@ import { SiGmail, SiFrontendmentor } from "react-icons/si";
 function Header() {
     return (
             <div id="header" className="d-flex justify-content-center ">
-                <div className="container d-flex flex-column flex-md-row pb-5">
-                    <div className="d-flex flex-column w-100 w-md-50 pb-md-5">
-                        <div className="mt-4 mt-md-5 pt-md-5">
-                            <h1 className="text-dark fw-bold display-2 ">
+                <div className="container d-flex flex-column flex-md-row p-3 p-lg-5">
+                    <div className="d-flex flex-column w-100 pb-md-5">
+                        <div className="mt-4 mt-md-0 mt-lg-0 pt-md-5">
+                            <h1 className="text-dark fw-bold display-3 ">
                                 Hi,<br></br>
                                 I'm <span className="text-primary">Monico</span><br></br>
                                 Web Developer<br></br>
@@ -26,14 +26,14 @@ function Header() {
                         </div>
                     </div>
 
-                    <div className="w-100 w-md-50 d-flex justify-content-center">
+                    <div className="w-100 d-flex  pb-5">
                         <div className="d-flex flex-column d-md-none mt-5">
                             <a href="#" className="mb-4"><FaGithub className="header-social-icon" /></a>
                             <a href="#" className="mb-4"><FaLinkedinIn className="header-social-icon" /></a>
                             <a href="#" className="mb-4"><SiFrontendmentor className="header-social-icon" /></a>
                         </div>
-                        <div className="d-flex justify-content-center align-items-center">
-                            <img src={profile} className="img-fluid" alt="header photo" />
+                        <div className="d-flex w-100 h-100 ms-auto">
+                            <img src={profile} className="img-fluid w-xl-75 m-auto mt-md-0 m-lg-auto" alt="header photo" />
                         </div>
                     </div>
                 </div>

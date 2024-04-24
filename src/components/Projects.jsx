@@ -7,7 +7,7 @@ import { LuExternalLink } from "react-icons/lu";
 function Projects() {
     return (
         <div id="projects" className="d-flex flex-column align-items-center border-top pt-5 occupier">
-            <h2 className="text-primary fw-bold">Projects</h2>
+            <h2 className="text-primary mt-5 fw-bold">Projects</h2>
             <div className="indicator"></div>
             <div className="container row row-cols-1 row-cols-md-2 row-cols-lg-3 d-flex p-5">
 
