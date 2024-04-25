@@ -1,11 +1,11 @@
 import { SiGmail, SiLinkedin, SiGithub } from "react-icons/si";
 
 
-function handleSubmit(e) {
-    e.preventDefault();
-    document.getElementById('contact-form').reset();/* 
-    document.getElementById('test').innerText = "Sent!"; */
-}
+// function handleSubmit(e) {
+//     e.preventDefault();
+//     document.getElementById('contact-form').reset();/* 
+//     document.getElementById('test').innerText = "Sent!"; */
+// }
 
 
 function Contact() {
@@ -22,8 +22,8 @@ function Contact() {
                         method="POST" 
                         data-netlify="true"
                         data-netlify-honeypot="bot-field"
-                        action="#"
-                        onSubmit={handleSubmit}>
+                        action="#">
+                        {/* onSubmit={handleSubmit} */}
 
                             <input className="d-none" name="bot-field"/>
                             <input type="text" className="form-control border border-secondary border-2 mb-3 pt-3 pt-md-4" id="name" placeholder="Full Name" name="name" required/>
