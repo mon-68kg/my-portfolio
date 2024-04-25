@@ -32,23 +32,6 @@ function Projects() {
                     <div className="p-2 h-100">
                         <div className="card h-100 overflow-hidden shadow">
                             <a href="#">
-                                <img src={qrcode} className="card-img projects rounded-0" alt="qr code project" />
-                            </a>
-                            <div className="card-body d-flex flex-column h-100 z-3">
-                                <h5 className="card-title fw-semibold">QR code</h5>
-                                <div className="mt-auto">
-                                    <a href="#" className="btn btn-primary fw-semibold rounded-pill me-1">Live<LuExternalLink className="ms-1 "/></a>
-                                    <a href="#" className="btn btn-dark fw-semibold rounded-pill">Code<LuExternalLink className="ms-1 "/></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="col p-0">
-                    <div className="p-2 h-100">
-                        <div className="card h-100 overflow-hidden shadow">
-                            <a href="#">
                                 <img src={blogcard} className="card-img projects rounded-0" alt="blog card project" />
                             </a>
                             <div className="card-body d-flex flex-column h-100 z-3">
