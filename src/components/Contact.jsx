@@ -21,8 +21,8 @@ function Contact() {
                         name="contact" 
                         method="POST" 
                         data-netlify="true"
-                        data-netlify-honeypot="bot-field"
-                        action="#">
+                        netlify-honeypot="bot-field"
+                        >
                         {/* onSubmit={handleSubmit} */}
 
                             <input className="d-none" name="bot-field"/>
