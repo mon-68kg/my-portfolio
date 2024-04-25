@@ -26,10 +26,10 @@ function Contact() {
                         {/* onSubmit={handleSubmit} */}
 
                             <input className="d-none" name="bot-field"/>
-                            <input type="text" className="form-control border border-secondary border-2 mb-3 pt-3 pt-md-4" id="name" placeholder="Full Name" name="name" required/>
-                            <input type="email" className="form-control border border-secondary border-2 mb-3 pt-3 pt-md-4" id="email" placeholder="E-Mail" name="email" required/>
-                            <input type="text" className="form-control border border-secondary border-2 mb-3 pt-3 pt-md-4" id="subject" placeholder="Subject" name="subject" required/>
-                            <textarea className="form-control no-resize border border-secondary border-2 mb-3 pt-2 pt-md-3 pt-lg-4 pb-5" id="message" placeholder="Message" name="message" required/>
+                            <input type="text" className="form-control border border-secondary border-2 mb-3 pt-3 pt-md-4" id="name" placeholder="Full Name" name="name"/>
+                            <input type="email" className="form-control border border-secondary border-2 mb-3 pt-3 pt-md-4" id="email" placeholder="E-Mail" name="email"/>
+                            <input type="text" className="form-control border border-secondary border-2 mb-3 pt-3 pt-md-4" id="subject" placeholder="Subject" name="subject"/>
+                            <textarea className="form-control no-resize border border-secondary border-2 mb-3 pt-2 pt-md-3 pt-lg-4 pb-5" id="message" placeholder="Message" name="message"/>
                             <button type="submit" className="btn btn-primary fs-5 fw-semibold px-3 px-md-4 px-lg-5 py-lg-2">Send</button>
                         </form>
                     </div>
