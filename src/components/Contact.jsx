@@ -20,7 +20,6 @@ function Contact() {
                         className="px-lg-5 mx-lg-5 mx-xxl-3 px-xxl-0" 
                         name="contact"
                         method="POST"
-                        action="#projects"
                         data-netlify="true"
                         onSubmit={handleSubmit}
                         >
