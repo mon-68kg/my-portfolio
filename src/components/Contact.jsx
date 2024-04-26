@@ -1,11 +1,11 @@
 import { SiGmail, SiLinkedin, SiGithub } from "react-icons/si";
 
 
-// function handleSubmit(e) {
-//     e.preventDefault();
-//     document.getElementById('contact-form').reset();/* 
-//     document.getElementById('test').innerText = "Sent!"; */
-// }
+function handleSubmit(e) {
+    e.preventDefault();
+    document.getElementById('contact-form').reset();
+    document.getElementById('test').innerText = "Sent!";
+}
 
 
 function Contact() {
@@ -14,18 +14,18 @@ function Contact() {
             <h2 className="text-primary mt-5 fw-bold">Contact Me</h2>
             <div className="indicator"></div>
             <div className="container d-flex flex-column flex-xxl-row px-4 px-md-5 mt-5 pt-5">
-
+                    <span id="test"></span>
                     <div className="w-100 mb-4 mb-xxl-0 px-md-4 px-lg-5">
                         <form id="contact-form"
                         className="px-lg-5 mx-lg-5 mx-xxl-3 px-xxl-0" 
-                        name="contact" 
-                        method="POST" 
+                        name="contact"
+                        method="POST"
+                        action="#projects"
                         data-netlify="true"
-                        netlify-honeypot="bot-field"
+                        onSubmit={handleSubmit}
                         >
-                        {/* onSubmit={handleSubmit} */}
+                        
 
-                            <input className="d-none" name="bot-field"/>
                             <input type="text" className="form-control border border-secondary border-2 mb-3 pt-3 pt-md-4" id="name" placeholder="Full Name" name="name"/>
                             <input type="email" className="form-control border border-secondary border-2 mb-3 pt-3 pt-md-4" id="email" placeholder="E-Mail" name="email"/>
                             <input type="text" className="form-control border border-secondary border-2 mb-3 pt-3 pt-md-4" id="subject" placeholder="Subject" name="subject"/>
