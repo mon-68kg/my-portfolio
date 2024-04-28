@@ -11,17 +11,17 @@ function Contact() {
             <h2 className="text-primary mt-5 fw-bold">Contact Me</h2>
             <div className="indicator"></div>
             <div className="">
-                <form name="contact-v1"
-                method="post"
-                data-netlify="true"
-                >
-                    <input type="hidden" name="form-name" value="contact-v1" />
+                
+                <form name="contact" action="" method="post">
+                    <input type="hidden" name="form-name" value="contact" />
 
-                    <div>
-                        <input type="text" name="name" />
-                    </div>
+                    <input required type="text" name="name" placeholder="Full Name" />
+                    <input required type="email" name="email" placeholder="Email" />
+                    <input required type="text" name="subject" placeholder="Subject" />
+                    <textarea required name="message" placeholder="Message"></textarea>
                     <button type="submit">Send</button>
                 </form>
+
             </div>
         </div>
     );
