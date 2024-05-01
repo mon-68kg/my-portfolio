@@ -101,6 +101,12 @@ textarea {
     height: 150px;
 }
 
+/* Footer */
+.footer-icons {
+    width: 30px;
+    height: 30px;
+}
+
 
 @media screen and (min-width: 576px) {
     

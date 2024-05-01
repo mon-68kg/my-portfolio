@@ -1,10 +1,3 @@
-import { SiGmail, SiLinkedin, SiGithub } from "react-icons/si";
-
-
-
-
-
-
 function Contact() {
     return (
         <div id="contact" className="d-flex flex-column align-items-center pt-5 pb-5 border-top occupier">
