@@ -98,6 +98,7 @@
 }
 textarea {
     resize: none !important;
+    height: 150px;
 }
 
 

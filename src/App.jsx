@@ -1,12 +1,12 @@
 import { useEffect } from "react";
 
-import NavBar from "./components/NavBar.jsx";
-import About from "./components/About.jsx";
-import Header from "./components/Header.jsx";
-import Projects from "./components/Projects.jsx";
-import Contact from "./components/Contact.jsx";
-import Footer from "./components/Footer.jsx";
-import Skills from "./components/Skills.jsx";
+import NavBar from "./pages/NavBar.jsx";
+import About from "./pages/About.jsx";
+import Header from "./pages/Header.jsx";
+import Projects from "./pages/Projects.jsx";
+import Contact from "./pages/Contact.jsx";
+import Footer from "./pages/Footer.jsx";
+import Skills from "./pages/Skills.jsx";
 
 function App() {
   // add indicator

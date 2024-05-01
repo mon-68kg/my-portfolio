@@ -11,6 +11,22 @@ $utilities: map-merge(
       map-get($utilities, "width"),
       ( responsive: true ),
     ),
+    "border-width": map-merge(
+      map-get($utilities, "border-width"),
+      ( responsive: true ),
+    ),
+    // "border-width": (
+    //   property: border-width,
+    //   class: bw,
+    //   responsive: true,
+    //   values: (
+    //     1: 1px,
+    //     2: 2px,
+    //     3: 3px,
+    //     4: 4px,
+    //     5: 5px
+    //   )
+    // ),
   )
 );
 

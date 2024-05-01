@@ -2029,6 +2029,21 @@
   .d-sm-none {
     display: none !important;
   }
+  .border-sm-1 {
+    border-width: 1px !important;
+  }
+  .border-sm-2 {
+    border-width: 2px !important;
+  }
+  .border-sm-3 {
+    border-width: 3px !important;
+  }
+  .border-sm-4 {
+    border-width: 4px !important;
+  }
+  .border-sm-5 {
+    border-width: 5px !important;
+  }
   .w-sm-25 {
     width: 25% !important;
   }
@@ -2593,6 +2608,21 @@
   }
   .d-md-none {
     display: none !important;
+  }
+  .border-md-1 {
+    border-width: 1px !important;
+  }
+  .border-md-2 {
+    border-width: 2px !important;
+  }
+  .border-md-3 {
+    border-width: 3px !important;
+  }
+  .border-md-4 {
+    border-width: 4px !important;
+  }
+  .border-md-5 {
+    border-width: 5px !important;
   }
   .w-md-25 {
     width: 25% !important;
@@ -3159,6 +3189,21 @@
   .d-lg-none {
     display: none !important;
   }
+  .border-lg-1 {
+    border-width: 1px !important;
+  }
+  .border-lg-2 {
+    border-width: 2px !important;
+  }
+  .border-lg-3 {
+    border-width: 3px !important;
+  }
+  .border-lg-4 {
+    border-width: 4px !important;
+  }
+  .border-lg-5 {
+    border-width: 5px !important;
+  }
   .w-lg-25 {
     width: 25% !important;
   }
@@ -3724,6 +3769,21 @@
   .d-xl-none {
     display: none !important;
   }
+  .border-xl-1 {
+    border-width: 1px !important;
+  }
+  .border-xl-2 {
+    border-width: 2px !important;
+  }
+  .border-xl-3 {
+    border-width: 3px !important;
+  }
+  .border-xl-4 {
+    border-width: 4px !important;
+  }
+  .border-xl-5 {
+    border-width: 5px !important;
+  }
   .w-xl-25 {
     width: 25% !important;
   }
@@ -4288,6 +4348,21 @@
   }
   .d-xxl-none {
     display: none !important;
+  }
+  .border-xxl-1 {
+    border-width: 1px !important;
+  }
+  .border-xxl-2 {
+    border-width: 2px !important;
+  }
+  .border-xxl-3 {
+    border-width: 3px !important;
+  }
+  .border-xxl-4 {
+    border-width: 4px !important;
+  }
+  .border-xxl-5 {
+    border-width: 5px !important;
   }
   .w-xxl-25 {
     width: 25% !important;
@@ -13960,6 +14035,21 @@ textarea.form-control-lg {
   .d-sm-none {
     display: none !important;
   }
+  .border-sm-1 {
+    border-width: 1px !important;
+  }
+  .border-sm-2 {
+    border-width: 2px !important;
+  }
+  .border-sm-3 {
+    border-width: 3px !important;
+  }
+  .border-sm-4 {
+    border-width: 4px !important;
+  }
+  .border-sm-5 {
+    border-width: 5px !important;
+  }
   .w-sm-25 {
     width: 25% !important;
   }
@@ -14524,6 +14614,21 @@ textarea.form-control-lg {
   }
   .d-md-none {
     display: none !important;
+  }
+  .border-md-1 {
+    border-width: 1px !important;
+  }
+  .border-md-2 {
+    border-width: 2px !important;
+  }
+  .border-md-3 {
+    border-width: 3px !important;
+  }
+  .border-md-4 {
+    border-width: 4px !important;
+  }
+  .border-md-5 {
+    border-width: 5px !important;
   }
   .w-md-25 {
     width: 25% !important;
@@ -15090,6 +15195,21 @@ textarea.form-control-lg {
   .d-lg-none {
     display: none !important;
   }
+  .border-lg-1 {
+    border-width: 1px !important;
+  }
+  .border-lg-2 {
+    border-width: 2px !important;
+  }
+  .border-lg-3 {
+    border-width: 3px !important;
+  }
+  .border-lg-4 {
+    border-width: 4px !important;
+  }
+  .border-lg-5 {
+    border-width: 5px !important;
+  }
   .w-lg-25 {
     width: 25% !important;
   }
@@ -15655,6 +15775,21 @@ textarea.form-control-lg {
   .d-xl-none {
     display: none !important;
   }
+  .border-xl-1 {
+    border-width: 1px !important;
+  }
+  .border-xl-2 {
+    border-width: 2px !important;
+  }
+  .border-xl-3 {
+    border-width: 3px !important;
+  }
+  .border-xl-4 {
+    border-width: 4px !important;
+  }
+  .border-xl-5 {
+    border-width: 5px !important;
+  }
   .w-xl-25 {
     width: 25% !important;
   }
@@ -16219,6 +16354,21 @@ textarea.form-control-lg {
   }
   .d-xxl-none {
     display: none !important;
+  }
+  .border-xxl-1 {
+    border-width: 1px !important;
+  }
+  .border-xxl-2 {
+    border-width: 2px !important;
+  }
+  .border-xxl-3 {
+    border-width: 3px !important;
+  }
+  .border-xxl-4 {
+    border-width: 4px !important;
+  }
+  .border-xxl-5 {
+    border-width: 5px !important;
   }
   .w-xxl-25 {
     width: 25% !important;
