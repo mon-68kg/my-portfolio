@@ -1,8 +1,4 @@
-export default function show_hide(event) {
-    
-    if (event.target.tagName == 'FORM') {
-        event.target.reset();
-    }
+function show_hide() {
     
     let elems = document.getElementById('root').children;
     for (let elem of elems) {
@@ -13,3 +9,18 @@ export default function show_hide(event) {
 
     document.getElementById('sent').classList.toggle('d-none');
 }
+
+export default function handleSubmit(event) {
+    event.preventDefault();
+  
+    const myForm = event.target;
+    const formData = new FormData(myForm);
+    
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(formData).toString(),
+    })
+      .then(() => show_hide())
+      .catch((error) => alert(error));
+};
