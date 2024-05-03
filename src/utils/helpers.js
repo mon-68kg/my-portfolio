@@ -1,4 +1,4 @@
-function show_hide() {
+export function show_hide() {
     
     let elems = document.getElementById('root').children;
     for (let elem of elems) {
