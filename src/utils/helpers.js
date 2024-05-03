@@ -1,7 +1,6 @@
 export default function show_hide(event) {
     
     if (event.target.tagName == 'FORM') {
-        event.preventDefault();
         event.target.reset();
     }
     
