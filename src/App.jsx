@@ -7,6 +7,9 @@ import Projects from "./pages/Projects.jsx";
 import Contact from "./pages/Contact.jsx";
 import Footer from "./pages/Footer.jsx";
 import Skills from "./pages/Skills.jsx";
+import SentSuccess from "./components/Sent_Success.jsx";
+
+
 
 function App() {
   // add indicator
@@ -43,6 +46,7 @@ function App() {
 
   return (
     <>
+      <SentSuccess />
       <NavBar />
       <Header />
       <About />
