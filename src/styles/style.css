@@ -100,6 +100,11 @@ textarea {
     resize: none !important;
     height: 150px;
 }
+    /* Sent success */
+#sent-check {
+    height: 100px;
+    width: 100px;
+}
 
 /* Footer */
 .footer-icons {
@@ -130,12 +135,4 @@ textarea {
         width: 175px;
         font-size: 1.25rem;
     }
-}
-
-@media screen and (min-width: 1400px) {
-
-    #div-2 {
-        border-left: 1px solid #dee2e6;
-    }
-
 }

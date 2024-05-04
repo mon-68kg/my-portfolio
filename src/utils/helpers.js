@@ -21,6 +21,9 @@ export default function handleSubmit(event) {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: new URLSearchParams(formData).toString(),
     })
-      .then(() => show_hide())
+      .then(() => {
+        myForm.reset();
+        show_hide()
+      })
       .catch((error) => alert(error));
 };
