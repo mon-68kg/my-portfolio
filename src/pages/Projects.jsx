@@ -22,8 +22,8 @@ function Projects() {
                                         <span className="text-white fw-semibold fs-5 bg-primary m-2 px-1">JavaScript</span>
                                         <span className="text-white fw-semibold fs-5 bg-primary m-2 px-1">Bootstrap</span>
                                     </div>
-                                    <a href="https://mon-68kg.github.io/testsite-myfork/" target="_blank" className="position-absolute bottom-0 end-0 m-3"><LuExternalLink className="text-white proj-link-icon" /></a>
                                 </div>
+                                <a href="https://mon-68kg.github.io/testsite-myfork/" target="_blank" className="position-absolute bottom-0 end-0 m-3"><LuExternalLink className="text-white proj-link-icon" /></a>
                             </div>
                         </div>
                         
@@ -43,8 +43,8 @@ function Projects() {
                                         <span className="text-white fw-semibold fs-5 bg-primary m-2 px-1">HTML</span>
                                         <span className="text-white fw-semibold fs-5 bg-primary m-2 px-1">CSS</span>
                                     </div>
-                                    <a href="https://mon-blogpreviewcard-frontendmentor.netlify.app/" target="_blank" className="position-absolute bottom-0 end-0 m-3"><LuExternalLink className="text-white proj-link-icon" /></a>
                                 </div>
+                                <a href="https://mon-blogpreviewcard-frontendmentor.netlify.app/" target="_blank" className="position-absolute bottom-0 end-0 m-3"><LuExternalLink className="text-white proj-link-icon" /></a>
                             </div>
                         </div>
                         
@@ -65,8 +65,8 @@ function Projects() {
                                         <span className="text-white fw-semibold fs-5 bg-primary m-2 px-1">CSS</span>
                                         <span className="text-white fw-semibold fs-5 bg-primary m-2 px-1">JavaScript</span>
                                     </div>
-                                    <a href="https://mon-faqaccordion-frontendmentor.netlify.app/" target="_blank" className="position-absolute bottom-0 end-0 m-3"><LuExternalLink className="text-white proj-link-icon" /></a>
                                 </div>
+                                <a href="https://mon-faqaccordion-frontendmentor.netlify.app/" target="_blank" className="position-absolute bottom-0 end-0 m-3"><LuExternalLink className="text-white proj-link-icon" /></a>
                             </div>
                         </div>
                         
