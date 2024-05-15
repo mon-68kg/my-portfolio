@@ -20,15 +20,15 @@ function Header() {
                             </a>
                         </div>
                         <div className="d-none d-md-flex mt-5 mt-lg-auto">
-                            <a href="https://github.com/mon-68kg" className="me-5"><FaGithub className="header-social-icon" /></a>
-                            <a href="monicocabungan08@gmail.com" className="me-5"><SiGmail className="header-social-icon" /></a>
+                            <a href="https://github.com/mon-68kg" target="_blank" className="me-5"><FaGithub className="header-social-icon" /></a>
+                            <a href="mailto:monicocabungan08@gmail.com" className="me-5"><SiGmail className="header-social-icon" /></a>
                         </div>
                     </div>
 
                     <div className="w-100 d-flex  pb-5">
                         <div className="d-flex flex-column d-md-none mt-5">
-                            <a href="https://github.com/mon-68kg" className="mb-4"><FaGithub className="header-social-icon" /></a>
-                            <a href="monicocabungan08@gmail.com" className="mb-4"><SiGmail className="header-social-icon" /></a>
+                            <a href="https://github.com/mon-68kg" target="_blank" className="mb-4"><FaGithub className="header-social-icon" /></a>
+                            <a href="mailto:monicocabungan08@gmail.com" className="mb-4"><SiGmail className="header-social-icon" /></a>
                         </div>
                         <div className="d-flex w-100 h-100 ms-auto">
                             <img src={profile} className="img-fluid w-xl-75 m-auto mt-md-0 m-lg-auto" alt="header photo" />
