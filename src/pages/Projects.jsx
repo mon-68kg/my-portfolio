@@ -17,10 +17,10 @@ function Projects() {
                                         <span className="text-white fs-5 bg-dark rounded px-2">Internship Project</span>
                                     </div>
                                     <div className="d-flex flex-wrap justify-content-center align-items-center">
-                                        <span className="text-white fw-semibold fs-5 bg-primary m-1 px-2">HTML</span>
-                                        <span className="text-white fw-semibold fs-5 bg-primary m-1 px-2">CSS</span>
-                                        <span className="text-white fw-semibold fs-5 bg-primary m-1 px-2">JavaScript</span>
-                                        <span className="text-white fw-semibold fs-5 bg-primary m-1 px-2">Bootstrap</span>
+                                        <span className="html-proj text-white fw-semibold fs-5 m-1 px-2">HTML</span>
+                                        <span className="css-proj text-white fw-semibold fs-5 m-1 px-2">CSS</span>
+                                        <span className="js-proj text-white fw-semibold fs-5 m-1 px-2">JavaScript</span>
+                                        <span className="bs-proj text-white fw-semibold fs-5 m-1 px-2">Bootstrap</span>
                                     </div>
                                 </div>
                                 <a href="https://mon-68kg.github.io/testsite-myfork/" target="_blank" className="position-absolute bottom-0 end-0 m-3"><LuExternalLink className="text-white proj-link-icon" /></a>
@@ -40,8 +40,8 @@ function Projects() {
                                         <span className="text-white fs-5 bg-dark rounded px-2">Blog preview card</span>
                                     </div>
                                     <div className="d-flex flex-wrap justify-content-center align-items-center">
-                                        <span className="text-white fw-semibold fs-5 bg-primary m-1 px-2">HTML</span>
-                                        <span className="text-white fw-semibold fs-5 bg-primary m-1 px-2">CSS</span>
+                                        <span className="html-proj text-white fw-semibold fs-5 m-1 px-2">HTML</span>
+                                        <span className="css-proj text-white fw-semibold fs-5 m-1 px-2">CSS</span>
                                     </div>
                                 </div>
                                 <a href="https://mon-blogpreviewcard-frontendmentor.netlify.app/" target="_blank" className="position-absolute bottom-0 end-0 m-3"><LuExternalLink className="text-white proj-link-icon" /></a>
@@ -61,9 +61,9 @@ function Projects() {
                                         <span className="text-white fs-5 bg-dark rounded px-2">FAQ accordion</span>
                                     </div>
                                     <div className="d-flex flex-wrap justify-content-center align-items-center">
-                                        <span className="text-white fw-semibold fs-5 bg-primary m-1 px-2">HTML</span>
-                                        <span className="text-white fw-semibold fs-5 bg-primary m-1 px-2">CSS</span>
-                                        <span className="text-white fw-semibold fs-5 bg-primary m-1 px-2">JavaScript</span>
+                                        <span className="html-proj text-white fw-semibold fs-5 m-1 px-2">HTML</span>
+                                        <span className="css-proj text-white fw-semibold fs-5 m-1 px-2">CSS</span>
+                                        <span className="js-proj text-white fw-semibold fs-5 m-1 px-2">JavaScript</span>
                                     </div>
                                 </div>
                                 <a href="https://mon-faqaccordion-frontendmentor.netlify.app/" target="_blank" className="position-absolute bottom-0 end-0 m-3"><LuExternalLink className="text-white proj-link-icon" /></a>

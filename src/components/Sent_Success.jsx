@@ -1,7 +1,7 @@
 import { FiCheckCircle } from "react-icons/fi";
 
 
-import { show_hide } from '../utils/helpers';
+import { show_hide } from '../utils/sent_success';
 
 function SentSuccess() {
     return (

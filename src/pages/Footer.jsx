@@ -6,9 +6,8 @@ function Footer() {
         <div id="footer" className="d-flex flex-column justify-content-center align-items-center text-white bg-dark p-3">
             <div>
                 <div className="d-flex justify-content-center align-items-center py-4">
-                    <SiGmail className="me-5 footer-icons"/>
-                    <SiLinkedin className="me-5 footer-icons"/>
-                    <SiGithub className="footer-icons"/>
+                    <a href="https://github.com/mon-68kg" className=""><SiGithub className="me-5 footer-icons"/></a>
+                    <a href="monicocabungan08@gmail.com" className=""><SiGmail className="footer-icons"/></a>
                 </div>
                 <div className="d-flex justify-content-center align-items-center">
                     © 2024 Monico

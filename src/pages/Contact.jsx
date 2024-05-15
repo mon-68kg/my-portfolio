@@ -1,4 +1,4 @@
-import handleSubmit from '../utils/helpers';
+import handleSubmit from '../utils/sent_success';
 
 function Contact() {
     return (

@@ -1,3 +1,5 @@
+// show/hide succees page
+
 export function show_hide() {
     
     let elems = document.getElementById('root').children;
@@ -6,7 +8,6 @@ export function show_hide() {
             elem.classList.toggle('d-none')
         }
     }
-
     document.getElementById('sent').classList.toggle('d-none');
 }
 
